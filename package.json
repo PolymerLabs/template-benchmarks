@@ -1,0 +1,22 @@
+{
+  "name": "@lit/template-benchmarks",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run run-attributes ; npm run run-text-content",
+    "run-attributes": "tach --config ./benchmarks/attributes/tachometer.json",
+    "run-text-content": "tach --config ./benchmarks/textContent/tachometer.json",
+    "tach": "tach",
+    "serve": "es-dev-server --node-resolution"
+  },
+  "keywords": [],
+  "author": "The Polymer Authors",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "tachometer": "^0.5.5"
+  }
+}
