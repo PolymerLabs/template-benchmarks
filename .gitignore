@@ -1,0 +1,5 @@
+/node_modules/
+/benchmarks/**/*.js
+/benchmarks/**/*.js.map
+/benchmarks/**/*.d.ts
+/benchmarks/**/*.d.ts.map
